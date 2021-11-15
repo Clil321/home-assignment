@@ -4,7 +4,9 @@ import Button from "react-bootstrap/Button";
 function breedButton() {
   return (
     <>
-      <Button variant="outline-secondary">Dog Breed</Button>
+      <Button variant="outline-secondary" className="w-25 p-3">
+        Dog Breed
+      </Button>
     </>
   );
 }

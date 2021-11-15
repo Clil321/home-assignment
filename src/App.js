@@ -1,10 +1,12 @@
 import "./App.css";
-import BreedButton from "./BreedsButton";
+import Container from "./Container";
+
 
 function App() {
   return (
     <div className="App">
-      <BreedButton />
+      <Container />
+      
     </div>
   );
 }
